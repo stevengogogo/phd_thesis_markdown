@@ -82,7 +82,7 @@ tex:
 
 html:
 	pandoc  \
-		--output "$(OUTPUTDIR)/thesis.html" \
+		--output "$(OUTPUTDIR)/index.html" \
 		--include-in-header="$(STYLEDIR)/style.css" \
 		--toc \
 		--mathjax \
